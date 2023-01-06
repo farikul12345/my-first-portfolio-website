@@ -1,11 +1,12 @@
 *{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0 200px;
 }
 nav li{
     list-style: none;
@@ -38,6 +39,7 @@ nav ul{
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    padding: 20px 10px;
 }
 /* Header Banner */
 .banner{
@@ -135,4 +137,50 @@ main{
     font-size: 16px;
     color: #757575;
     margin-bottom: 30px;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+.resume .description{
+    color: #757575;
+}
+.rusume-btn{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background:  #FFF8F3;
+    padding: 130px 230px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+    margin-top: 20px;
+}
+.contact-description{
+    margin-top: 20px;
+    margin-bottom: 32px;
 }
